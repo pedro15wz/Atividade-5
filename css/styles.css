@@ -1,8 +1,24 @@
-body{
-    background-color: darkred; 
+h1{
+    color: Red; 
 }
 
-h2 a {
-    background-color: darkble; 
-    text-decoration: none;
+body{
+    text-align: center; 
+    font-family: Arial; 
+}
+nav a {
+    text-decoration: none; 
+    color: black; 
+    display: flex; 
+    flex-direction: column;
+    margin: 30px; 
+    text-align: center; 
+}
+
+.filmes a{
+    color: darkred; 
+}
+
+.amanha a {
+    color: darkblue; 
 }
